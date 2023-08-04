@@ -1,5 +1,5 @@
 while(true){
-  nome = prompt("Digite seu nome")
+  nome = prompt("Digite seu nome completo")
   nascimento = parseInt(prompt("Digite o ano de nascimento (entre 1922 e 2022)"))
   if(nome=='' || /\d/.test(nome)){
     console.log("Nome invalido")
